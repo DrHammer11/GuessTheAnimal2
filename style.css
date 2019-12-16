@@ -1,0 +1,26 @@
+
+
+#Peppy {
+    position: absolute;
+    top: 150px;
+    width: 618px;
+    height: 620px;
+  }
+
+  #SpeechBubble {
+    position: absolute;
+    top: 40px;
+  }
+
+  #Couch {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  #container {
+    width: 235px; 
+    word-wrap: break-word;
+    position: absolute;
+    top: 90px;
+  }

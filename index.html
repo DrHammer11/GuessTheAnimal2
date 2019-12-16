@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Guess the animal!</title>
+    </head>
+    <body>
+        <img src="Couch.png" id="Couch" style="position: absolute; width: 1118px; height: 819px;">
+        <img src="Peppy.png" id="Peppy" style="position: absolute; left: 200px;">
+        <img src="SpeechBubble.png" id="SpeechBubble" style="position: absolute; left: 730px">
+        <div id="container" style="position: absolute; left: 755px">
+            <div id="question-box"></div>
+            <input type="text" id="answer-box" value="" onkeypress="return myKeyPress(event)">
+            <button type="button" id="submit-button" onclick="SubmitAnswer()">Submit</button>
+        </div>
+        <script src="file.js"></script>
+    </body>
+</html>
