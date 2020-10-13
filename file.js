@@ -145,6 +145,9 @@ function SubmitAnswer() {
         trueArray = getNewTrueList(bestquestion, false, trueArray)  
         askNextQuestion(trueArray, questions);
     }
+    else if (answer.toLowerCase()[0] === "FillPeppyWithKnowledge") {
+        FillWithFacts()
+    }
 }
 
 function SubmitAnswerFinalAnswer() {
